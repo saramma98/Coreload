@@ -1,0 +1,29 @@
+
+<div class=" card-header">
+    <h3 class=" card-title">
+      <i class="fa fa-exclamation" aria-hidden="true"></i>Patient Informtion...
+    </h3>
+</div>
+
+
+ <div style="margin-left: 10%; margin-top: 5%;margin-right: 40%; border-style:solid;border-color: black;">
+
+     <ul class="tree">
+        <li>{{treeData.patientAccessionNumber}}
+            <ul>
+                    <li> First Name : {{treeData.firstName}}</li>
+                    <li> Last Name : {{treeData.lastName}}</li>
+                    <li> Weight : {{treeData.weight}}</li>
+                    <li>Height : {{treeData.height}}</li>
+                    <li> DOB : {{treeData.dateOfBirth}}</li>
+                    <li> Age : {{treeData.age}}</li>
+                    <li>Gender : {{treeData.gender}}</li>
+            </ul>
+        </li>
+      </ul>
+
+</div>
+
+<div>
+  <a type="button" class="bbtn btn-outline-dark btn-outline-dark" style="margin: 30px" routerLink=''>Back</a>
+</div>
